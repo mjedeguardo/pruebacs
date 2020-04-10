@@ -1,0 +1,48 @@
+/*
+heigh:altura
+width:anchura
+*/
+
+
+/* PARTE 2
+Aplicando la normalizacion de css
+http://necolas.github.io/normalize.css/
+creas un nuevo archi ccs y pegas lo que vienen en link de arriba .
+*/
+
+
+/*
+Parte3 
+Selector de tipo o etiqueta
+*/
+
+
+/*
+parte4 
+para seleccionar un id
+#(nombreid) para poder usarlo en css
+*/
+
+
+/*
+part5 
+seleccionas una clase para 
+usar es asi ;
+.tuclase
+*/
+
+.header {}
+
+.header_logo {}
+
+.header_nav {}
+
+p,
+div {
+    color: blue;
+    font-size: 20px;
+}
+
+.hola {
+    color: red;
+}

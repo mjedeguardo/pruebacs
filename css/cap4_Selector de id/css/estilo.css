@@ -1,0 +1,27 @@
+/*
+heigh:altura
+width:anchura
+*/
+
+
+/* PARTE 2
+Aplicando la normalizacion de css
+http://necolas.github.io/normalize.css/
+creas un nuevo archi ccs y pegas lo que vienen en link de arriba .
+*/
+
+
+/*
+Parte3 
+Selector de tipo o etiqueta
+*/
+
+p,
+div {
+    color: blue;
+    font-size: 20px;
+}
+
+#hola {
+    color: red;
+}
