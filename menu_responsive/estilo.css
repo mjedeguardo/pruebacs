@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(platos.jpg) center / cover no-repeat;
+    height: 100vh;
+}
+
+.nav {
+    width: 100;
+    position: relative;
+}
+
+.icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background: #059;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: height .3s linear;
+}
+
+.aparecer {
+    height: 300px;
+}
+
+.enlace {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background: #059;
+    color: white;
+    text-decoration: none;
+}
+
+.seleccion {
+    background: white;
+    color: #059;
+}
+
+
+/*para que al pasar el mouse cambie el enlace*/
+
+.enlace:hover {
+    background: white;
+    color: #059;
+}
+
+@media screen and (min-width:1024px) {
+    /*este display lo usamos para que se vaya cuando este en 1024px */
+    .icon-menu {
+        display: none;
+    }
+    /*Este menu de aqui lo usamos para hacer aparecer el menu*/
+    .menu {
+        display: flex;
+        height: auto;
+        width: auto;
+        float: right;
+    }
+    /*Ahora de 1024 px le cambiaremos el contenido con lo siguiente clase*/
+    .contenido {
+        width: 1000px;
+        margin: auto;
+        border: 2px solid white;
+        height: 100vh;
+    }
+}
+
+
+/*si suma mas de 1600px de anchura*/
+
+@media screen and (min-width:1600px) {
+    .contenido {
+        width: 1400px;
+    }
+}
